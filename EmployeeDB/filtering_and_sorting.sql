@@ -43,4 +43,7 @@ select * from
 employees where
 department <> "HR";
 
+## find employees whose salary is either 50000, 70000 or 90000
+select * from employees where salary in (50000, 70000, 90000);
+
 
